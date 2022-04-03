@@ -1,5 +1,8 @@
 pluginManagement {
     repositories {
+        maven {
+            url 'https://oss.sonatype.org/content/repositories/snapshots/'
+        }
         gradlePluginPortal()
         google()
         mavenCentral()
@@ -16,4 +19,3 @@ dependencyResolutionManagement {
 rootProject.name = "composedemo"
 include ':app'
 include ':coreui'
-includeBuild("/Users/srpatel/github/paparazzi")
